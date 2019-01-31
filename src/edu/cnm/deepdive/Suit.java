@@ -10,10 +10,10 @@ package edu.cnm.deepdive;
  */
 public enum Suit { // enum cant change the instances once its been loaded into memory.
 
-  CLUBS("C"),
-  DIAMONDS("D"),
-  HEARTS("H"),
-  SPADES("S");
+  CLUBS("\u2663"),
+  DIAMONDS("\u2662"),
+  HEARTS("\u2661"),
+  SPADES("\u2660");
 
   private final String symbol;
 
